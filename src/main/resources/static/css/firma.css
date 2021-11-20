@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+}
+
+input, button {
+    display: block;
+    margin-top: 0.4em;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.fullwidth {
+    width: 100%;
+}

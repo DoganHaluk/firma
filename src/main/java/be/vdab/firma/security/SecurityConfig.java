@@ -23,7 +23,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .authoritiesByUsernameQuery("select ?, 'gebruiker'");
     }
 
-        @Override
+    @Override
     public void configure(WebSecurity web) {
         web.ignoring()
                 .mvcMatchers("/images/**")
